@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/listings/{{listingsTable.selectedRow.listingId}}"
+        "url": "web:4000/s/listings/{{listingsTable.triggeredRow.listingId}}"
       },
       "invalids": [],
       "messages": [],
@@ -56,7 +56,7 @@
     "messages": [],
     "jsonPathKeys": [
       "EditListingForm.data",
-      "listingsTable.selectedRow.listingId"
+      "listingsTable.triggeredRow.listingId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

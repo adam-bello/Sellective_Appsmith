@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getListingReviewResponses",
+    "name": "getOrderDetails",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/listingreviews/{{reviewsTable.triggeredRow.reviewId}}/responses"
+        "url": "web:4000/a/order/{{ordersTable.triggeredRow.orderId}}/details"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Listings and Orders",
+    "pageId": "Authenticator Orders",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,14 +46,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "reviewsTable.triggeredRow.reviewId"
+      "ordersTable.triggeredRow.orderId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Listings and Orders_getListingReviewResponses",
+  "id": "Authenticator Orders_getOrderDetails",
   "deleted": false,
-  "gitSyncId": "643eddc8d46c3e3d9c8bee4d_643f857206b1df376401d8cd"
+  "gitSyncId": "644013685edcc426e3f2cc7a_6440202b5edcc426e3f2ccd3"
 }

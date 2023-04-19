@@ -7,6 +7,14 @@
     {
       "id": "Seller Reviews",
       "isDefault": false
+    },
+    {
+      "id": "Authenticator Listing Notes",
+      "isDefault": false
+    },
+    {
+      "id": "Authenticator Orders",
+      "isDefault": false
     }
   ],
   "viewMode": false,

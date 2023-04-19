@@ -1,0 +1,7 @@
+{{
+	{
+		listingId: listingId.inputText,
+		noteComment: noteComment.inputText,
+		authenticatorId: authenticatorId.inputText
+	}
+}}

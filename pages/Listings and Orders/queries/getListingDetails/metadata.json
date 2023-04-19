@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/listings/{{listingsTable.selectedRow.listingId}}"
+        "url": "web:4000/listings/{{listingsTable.triggeredRow.listingId}}"
       },
       "invalids": [],
       "messages": [],
@@ -46,7 +46,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "listingsTable.selectedRow.listingId"
+      "listingsTable.triggeredRow.listingId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
