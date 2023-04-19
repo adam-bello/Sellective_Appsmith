@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 770,
+          "bottomRow": 790,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "group"
               ],
               "topRow": 3,
-              "bottomRow": 29,
+              "bottomRow": 31,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -57,7 +57,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 260,
+                  "bottomRow": 280,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -77,7 +77,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 5,
+                      "bottomRow": 7,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -117,7 +117,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 7,
+                      "originalBottomRow": 5,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -183,8 +183,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 20,
-                      "bottomRow": 24,
+                      "topRow": 22,
+                      "bottomRow": 26,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -212,10 +212,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 33,
+                      "originalTopRow": 20,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 37,
+                      "originalBottomRow": 24,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -229,8 +229,8 @@
                       "searchTags": [
                         "dropdown"
                       ],
-                      "topRow": 10,
-                      "bottomRow": 17,
+                      "topRow": 12,
+                      "bottomRow": 19,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "type": "SELECT_WIDGET",
@@ -272,8 +272,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 10,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 17,
                       "minDynamicHeight": 4
                     }
                   ],
@@ -318,7 +320,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 32,
+              "topRow": 34,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -420,7 +422,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 77,
+              "bottomRow": 79,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -626,7 +628,8 @@
                   "borderRadius": "{{sellerReviewTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
                   "boxShadow": "{{sellerReviewTable.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
                   "customAlias": "",
-                  "onClick": "{{viewSellerReviewResponses.myFun1()}}"
+                  "onClick": "{{viewSellerReviewResponses.myFun1()}}",
+                  "buttonLabel": "View"
                 },
                 "reviewId": {
                   "allowCellWrapping": false,
