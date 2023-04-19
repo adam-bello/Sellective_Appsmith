@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Listings and Orders",
       "isDefault": true
+    },
+    {
+      "id": "Reviews",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +14,9 @@
   "unreadCommentThreads": 0,
   "color": "#ECECEC",
   "icon": "saturn",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
