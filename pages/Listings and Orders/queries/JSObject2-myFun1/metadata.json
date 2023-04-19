@@ -16,7 +16,7 @@
     "pageId": "Listings and Orders",
     "collectionId": "Listings and Orders_JSObject2",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -24,7 +24,6 @@
       "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -40,5 +39,5 @@
   },
   "id": "Listings and Orders_JSObject2.myFun1",
   "deleted": false,
-  "gitSyncId": "643eddc8d46c3e3d9c8bee4d_643f8add06b1df376401d8db"
+  "gitSyncId": "644013685edcc426e3f2cc7a_64402eca5edcc426e3f2cce1"
 }

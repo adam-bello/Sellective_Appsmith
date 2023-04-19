@@ -144,7 +144,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 115,
+              "bottomRow": 124,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -1156,7 +1156,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681885643112,
-              "originalBottomRow": 182,
+              "originalBottomRow": 191,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -1530,7 +1530,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 141,
+              "originalTopRow": 150,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -2955,7 +2955,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "width": 1231.2,
+              "width": 754.3,
               "minDynamicHeight": 24
             },
             {
@@ -3586,10 +3586,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 116,
+              "originalTopRow": 124,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 140,
+              "originalBottomRow": 150,
               "minDynamicHeight": 10
             },
             {
@@ -4020,7 +4020,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "listingsTable.selectedRow.listingId"
+                "listingsTable.triggeredRow.listingId"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -4030,7 +4030,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "reviewsTable.selectedRow.reviewId"
+                "reviewsTable.triggeredRow.reviewId"
               ],
               "timeoutInMillisecond": 10000
             },

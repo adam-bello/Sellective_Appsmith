@@ -13,10 +13,10 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Listings and Orders",
-    "collectionId": "Listings and Orders_JSObject2",
+    "pageId": "Authenticator Orders",
+    "collectionId": "Authenticator Orders_JSObject2",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -24,6 +24,7 @@
       "isAsync": true
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -37,7 +38,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Listings and Orders_JSObject2.myFun2",
+  "id": "Authenticator Orders_JSObject2.myFun2",
   "deleted": false,
-  "gitSyncId": "644013685edcc426e3f2cc7a_64402eca5edcc426e3f2cce3"
+  "gitSyncId": "644013685edcc426e3f2cc7a_644018d05edcc426e3f2ccb2"
 }

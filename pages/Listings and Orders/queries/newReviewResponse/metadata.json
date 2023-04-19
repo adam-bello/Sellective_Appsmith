@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/reviews/{{reviewsTable.selectedRow.reviewId}}"
+        "url": "web:4000/s/reviews/{{reviewsTable.triggeredRow.reviewId}}"
       },
       "invalids": [],
       "messages": [],
@@ -45,10 +45,10 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "datasourceUrl"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "datasourceUrl"
       }
     ],
     "isValid": true,
@@ -56,7 +56,7 @@
     "messages": [],
     "jsonPathKeys": [
       "newReviewResponseForm.data",
-      "reviewsTable.selectedRow.reviewId"
+      "reviewsTable.triggeredRow.reviewId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
