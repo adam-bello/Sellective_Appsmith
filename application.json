@@ -5,7 +5,7 @@
       "isDefault": true
     },
     {
-      "id": "Reviews",
+      "id": "Seller Reviews",
       "isDefault": false
     }
   ],
@@ -15,6 +15,9 @@
   "color": "#ECECEC",
   "icon": "saturn",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
