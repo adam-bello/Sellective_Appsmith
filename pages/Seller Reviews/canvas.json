@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 770,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "group"
               ],
               "topRow": 3,
-              "bottomRow": 33,
+              "bottomRow": 29,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -57,7 +57,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 300,
+                  "bottomRow": 260,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -77,7 +77,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 9,
+                      "bottomRow": 5,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -117,7 +117,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 7,
+                      "originalBottomRow": 9,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -183,8 +183,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 24,
-                      "bottomRow": 28,
+                      "topRow": 20,
+                      "bottomRow": 24,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -212,70 +212,70 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 22,
+                      "originalTopRow": 24,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 26,
+                      "originalBottomRow": 28,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
                       "boxShadow": "none",
                       "widgetName": "reviewsForSellerId",
-                      "isFilterable": true,
-                      "displayName": "Select",
-                      "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-                      "labelText": "Seller ID",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
-                        "dropdown"
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
                       ],
-                      "topRow": 14,
-                      "bottomRow": 21,
+                      "topRow": 9,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
-                      "type": "SELECT_WIDGET",
-                      "serverSideFiltering": false,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
                       "hideCard": false,
-                      "defaultOptionValue": "",
                       "animateLoading": true,
-                      "parentColumnSpace": 7.2109375,
+                      "parentColumnSpace": 6.88623046875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
+                      "resetOnSubmit": true,
+                      "leftColumn": 4,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
                         },
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "options"
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "{{getSellers.data}}",
-                      "placeholderText": "Select option",
+                      "labelStyle": "",
+                      "inputType": "TEXT",
                       "isDisabled": false,
-                      "key": "ea5zo4x4ki",
+                      "key": "tq8hw3oc2l",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 31,
+                      "rightColumn": 59,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "8r7vretszc",
+                      "widgetId": "mw5r3cu437",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "version": 1,
+                      "label": "Seller Id",
+                      "version": 2,
                       "parentId": "fqchs475jn",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 12,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 19,
+                      "iconAlign": "left",
+                      "defaultText": "1",
                       "minDynamicHeight": 4
                     }
                   ],
@@ -312,7 +312,7 @@
               "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 31,
+              "originalBottomRow": 29,
               "minDynamicHeight": 10
             },
             {
@@ -320,7 +320,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 36,
+              "topRow": 32,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -405,7 +405,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1681913122161,
-              "originalBottomRow": 79,
+              "originalBottomRow": 77,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -422,7 +422,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 81,
+              "bottomRow": 77,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -676,7 +676,7 @@
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 34,
+              "originalTopRow": 32,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
             },
@@ -1453,16 +1453,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "reviewsForSellerId.selectedOptionValue"
+                "reviewsForSellerId.inputText"
               ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Seller Reviews_getSellers",
-              "name": "getSellers",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

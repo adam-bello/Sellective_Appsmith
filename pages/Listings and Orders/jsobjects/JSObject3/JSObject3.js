@@ -6,7 +6,11 @@ export default {
 	},
 	myFun2: async () => {
 		//use async-await or promises
-		await newListing.run();
-		await getListings.run();
+		try {
+			await newListing.run();
+			await getListings.run();
+		} catch {
+			showAlert('Failed to make listing, check your submission fields','error')
+		}
 	}
 }
